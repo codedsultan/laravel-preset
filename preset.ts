@@ -50,8 +50,8 @@ Preset.group((preset) => {
 	preset.editNodePackages()
 		.add('vue', '^3.0.5')
 		.addDev('@vue/compiler-sfc', '^3.0.5')
-		.addDev('@vitejs/plugin-vue', '^1.1.4')
-		.addDev('@vitejs/plugin-legacy', '^1.4');
+		// .addDev('@vitejs/plugin-vue', '^1.1.4')
+		// .addDev('@vitejs/plugin-legacy', '^1.4');
 
 }).withTitle('Installing Vue...');
 
