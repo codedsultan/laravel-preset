@@ -16,7 +16,7 @@
   <br />
   <pre align="center">npx apply codedsultan/laravel-preset --install --delete -v </pre>
 
-  <br />
+  <!-- <br />
 ## Option
 <pre align="center"> --install # This would Install both PHP & Node Packages</pre>
 <pre align="center"> --delete # This would Delete Files both PHP & Node Packages</pre>
@@ -40,4 +40,4 @@
   <br />
   <br />
   <!-- <sub>Built with ❤︎ by <a href="https://github.com/dammyammy">Damilola Ogunmoye</a> -->
-</p>
+</p> -->

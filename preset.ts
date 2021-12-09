@@ -7,9 +7,9 @@ Preset.option('delete', false);
 Preset.extract('default');
 
 // Deleting Files
-Preset.delete(['/resources/js', 'resources/views/welcome.blade.php', 'webpack.mix.js'])
-	.ifOption('delete')
-	.withTitle('Deleting Unneeded Files');
+// Preset.delete(['/resources/js', 'resources/views/welcome.blade.php', 'webpack.mix.js'])
+// 	.ifOption('delete')
+// 	.withTitle('Deleting Unneeded Files');
 
 // Updating Gitignore File
 Preset.group(preset => {
@@ -17,30 +17,30 @@ Preset.group(preset => {
 		.withTitle(`Updating Gitignore...`)
 		.addBefore('/public/hot', '/public/build'); 
 
-	preset.edit('.gitignore')
-		.addAfter('/public/hot', '/public/mix-manifest.json');
+	// preset.edit('.gitignore')
+	// 	.addAfter('/public/hot', '/public/mix-manifest.json');
 }).withTitle('Updating Gitignore File');
 
 // Common packages
-Preset.group(preset => {
-	preset.editNodePackages()
-		.remove('laravel-mix')
-		.remove("lodash")
-		.addDev("lodash-es", "^4.17.19")
-		.addDev('vite', '^2.0.1')
-		.addDev('laravel-vite', '^0.0.7')
-		.delete(() => ['development', 'watch', 'watch-poll', 'hot', 'prod', 'production'].map(command => `scripts.${command}`))
+// Preset.group(preset => {
+// 	preset.editNodePackages()
+// 		// .remove('laravel-mix')
+// 		// .remove("lodash")
+// 		// .addDev("lodash-es", "^4.17.19")
+// 		// .addDev('vite', '^2.0.1')
+// 		// .addDev('laravel-vite', '^0.0.7')
+// 		.delete(() => ['development', 'watch', 'watch-poll', 'hot', 'prod', 'production'].map(command => `scripts.${command}`))
 
-	preset.editNodePackages()
-		.merge({
-			scripts: {
-				dev: 'vite',
-				build: 'vite build',
-				serve: 'vite preview'
-			}
-		});
-})
-.withTitle('Updating package.json...');
+// 	// preset.editNodePackages()
+// 	// 	.merge({
+// 	// 		scripts: {
+// 	// 			dev: 'vite',
+// 	// 			build: 'vite build',
+// 	// 			serve: 'vite preview'
+// 	// 		}
+// 	// 	});
+// })
+// .withTitle('Updating package.json...');
 
 // Vue
 Preset.group((preset) => {
