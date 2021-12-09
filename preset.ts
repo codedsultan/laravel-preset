@@ -45,14 +45,14 @@ Preset.group(preset => {
 // Vue
 Preset.group((preset) => {
 	preset.edit('routes/web.php')
-		.update((content) => content.replace('/', '/welcome'));
+		.update((content) => content.replace('\'/\'', '\'/welcome\''));
 		
 	preset.editNodePackages()
 		.add('vue', '^3.0.5')
 		.addDev('@vue/compiler-sfc', '^3.0.5')
 		.addDev("ts-loader")
 		.addDev("typescript")
-		.addDev("browser-sync")
+		.addDev("browser-sync","^2.27.7",)
 		.addDev("browser-sync-webpack-plugin","2.3.0")
 		.addDev("vue-loader","16.2.0")
 		// .addDev('@vitejs/plugin-vue', '^1.1.4')
