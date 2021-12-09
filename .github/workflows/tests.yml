@@ -54,4 +54,5 @@ jobs:
       - name: Compile front-end
         run: |
           cd ../app
-          npm run build
+          npm run prod
+        # npm run build
