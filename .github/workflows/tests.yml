@@ -50,7 +50,7 @@ jobs:
           cd ../app
           npm install browser-sync browser-sync-webpack-plugin@^2.3.0 vue-loader@^16.2.0 --dev
           
-      - name: Compile front-end
-        run: |
-          cd ../app
-          npm run build
+      # - name: Compile front-end
+      #   run: |
+      #     cd ../app
+      #     npm run build
