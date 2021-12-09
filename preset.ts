@@ -126,7 +126,7 @@ Preset.group(preset => {
 Preset.instruct([
 	// `Set Proxy in vite.config.js for dev server`,
 	`Run the development server with ${color.magenta('yarn dev')}`,
-	`To build assets use ${color.magenta('yarn build')}`,
+	`To build assets use ${color.magenta('yarn prod')}`,
 	`Edit your scripts in ${color.magenta('resources/scripts')}`,
 ]).withHeading("What's next?");
 
