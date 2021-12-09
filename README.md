@@ -9,7 +9,7 @@
   
 </p>
 
-<h2 align="center"> Laravel Preset</h2>
+<h2 align="center"> Laravel Inertia ,Tailwind Preset (with laravel Mix)</h2>
 
 <p align="center">
  
@@ -32,12 +32,12 @@
   <br />
 
 </div>
-
+ -->
 <p align="center">
   <br />
   <br />
   ·
   <br />
   <br />
-  <!-- <sub>Built with ❤︎ by <a href="https://github.com/dammyammy">Damilola Ogunmoye</a> -->
-</p> -->
+  <sub>Built with ❤︎ by <a href="https://github.com/codedsultan">Ibraheem Olusegun</a>
+</p>
