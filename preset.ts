@@ -17,8 +17,8 @@ Preset.group(preset => {
 		.withTitle(`Updating Gitignore...`)
 		.addBefore('/public/hot', '/public/build'); 
 
-	// preset.edit('.gitignore')
-	// 	.addAfter('/public/hot', '/public/mix-manifest.json');
+	preset.edit('.gitignore')
+		.addAfter('/public/hot', '/public/mix-manifest.json');
 }).withTitle('Updating Gitignore File');
 
 // Common packages
