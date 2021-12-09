@@ -1,11 +1,11 @@
 {
-  "name": "@tedbreehq/laravel-preset",
+  "name": "@codedsultan/laravel-inertia-vue-tailwind-preset",
   "version": "0.1",
-  "author": "Damilola Ogunmoye",
+  "author": "Ibraheem Olusegun",
   "contributors": [
     "Damilola Ogunmoye <dami@tedbree.com>",
     "Osemeke Samuel <samuel@tedbree.com>",
-    "Ibraheem Oluwasegun <segun@tedbree.com>" 
+    "Ibraheem Olusegun <codedsultan369@gmail.com>" 
   ],
   "license": "MIT",
   "preset": "preset.ts",

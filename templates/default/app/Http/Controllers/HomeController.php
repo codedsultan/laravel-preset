@@ -8,6 +8,7 @@ class HomeController extends Controller
 {
     public function index()
     {
-        return Inertia::render('Home', ['welcomeMessage' => "welcome to My App" ]);
+        $url = 'http://google.com';
+        return Inertia::render('Home', ['welcomeMessage' => "welcome to My App \n The World is Yours \n By me a Coffee <a href=\"$url\">" ]);
     }
 }

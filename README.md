@@ -9,7 +9,7 @@
   
 </p>
 
-<h2 align="center"> Laravel Inertia ,Tailwind Preset (with laravel Mix)</h2>
+<h2 align="center"> Laravel Inertia,Vue,Tailwind Preset (with laravel Mix)</h2>
 
 <p align="center">
  

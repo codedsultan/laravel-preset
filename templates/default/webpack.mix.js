@@ -12,7 +12,8 @@ const path = require("path")
  */
 
 mix.postCss("resources/css/app.css", "public/css")
-    .ts("resources/js/app.ts", "public/js")
+    // .ts("resources/js/app.ts", "public/js")
+    .js("resources/js/app.js", "public/js")
     .vue()
     .extract(["vue"])
     .sourceMaps(false)

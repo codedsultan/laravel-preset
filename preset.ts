@@ -45,11 +45,16 @@ Preset.group(preset => {
 // Vue
 Preset.group((preset) => {
 	preset.edit('routes/web.php')
-		.update((content) => content.replace('welcome', 'app'));
+		.update((content) => content.replace('/', '/welcome'));
 		
 	preset.editNodePackages()
 		.add('vue', '^3.0.5')
 		.addDev('@vue/compiler-sfc', '^3.0.5')
+		.addDev("ts-loader")
+		.addDev("typescript")
+		.addDev("browser-sync")
+		.addDev("browser-sync-webpack-plugin","2.3.0")
+		.addDev("vue-loader","16.2.0")
 		// .addDev('@vitejs/plugin-vue', '^1.1.4')
 		// .addDev('@vitejs/plugin-legacy', '^1.4');
 
@@ -81,7 +86,7 @@ Preset.group(preset => {
 
 // PHP Packages
 Preset.editPhpPackages()
-	.add('innocenzi/laravel-vite', '^0.1.1')
+	// .add('innocenzi/laravel-vite', '^0.1.1')
 	.add('spatie/laravel-medialibrary', '^9.6.2')
 	.add("guzzlehttp/guzzle", "^7.0.1")
 	.add("inertiajs/inertia-laravel", "^0.4.2")
@@ -119,7 +124,7 @@ Preset.group(preset => {
 
 
 Preset.instruct([
-	`Set Proxy in vite.config.js for dev server`,
+	// `Set Proxy in vite.config.js for dev server`,
 	`Run the development server with ${color.magenta('yarn dev')}`,
 	`To build assets use ${color.magenta('yarn build')}`,
 	`Edit your scripts in ${color.magenta('resources/scripts')}`,
