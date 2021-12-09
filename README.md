@@ -1,20 +1,20 @@
 <p align="center">
   <br />
-  <a href="https://preset.dev">
+  <!-- <a href="https://preset.dev">
     <img width="100" src="https://raw.githubusercontent.com/preset/cli/main/.github/assets/logo.svg" alt="Logo of the Preset tool">
-  </a>
-  <a href="https://tedbree.com">
+  </a> -->
+  <!-- <a href="https://tedbree.com">
     <img src="https://content.app-sources.com/s/14630223212260103/uploads/Logos/TEDBREE_WHITE-1462185.png" alt="Logo of Tedbree">
-  </a>
+  </a> -->
   
 </p>
 
-<h2 align="center">Tedbree - Laravel Preset</h2>
+<h2 align="center"> Laravel Preset</h2>
 
 <p align="center">
  
   <br />
-  <pre align="center">npx apply tedbreehq/laravel-preset --install --delete -v </pre>
+  <pre align="center">npx apply codedsultan/laravel-preset --install --delete -v </pre>
 
   <br />
 ## Option
@@ -39,5 +39,5 @@
   ·
   <br />
   <br />
-  <sub>Built with ❤︎ by <a href="https://github.com/dammyammy">Damilola Ogunmoye</a>
+  <!-- <sub>Built with ❤︎ by <a href="https://github.com/dammyammy">Damilola Ogunmoye</a> -->
 </p>
